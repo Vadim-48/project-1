@@ -248,9 +248,6 @@ body {
   min-height: 206px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
-.wrap__column {
-  max-width: 341px;
-}
 .wrap__title {
   font-size: 18px;
   margin-bottom: 3px;
