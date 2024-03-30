@@ -1,0 +1,32 @@
+.get {
+    padding-top: calc(30px + (172 - 30) * ((100vw - 320px) / (1200 - 320)));
+    padding-bottom: calc(30px + (176 - 30) * ((100vw - 320px) / (1200 - 320)));
+    color: #fff;
+    background-color: #101314;
+    text-align: center;
+   
+    &__title {
+        font-size: 54px;
+        line-height: 148%;
+        letter-spacing: 0.06em;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-size: 31px;
+        line-height: 129%; 
+        color: inherit;     
+        margin-bottom: 51px;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    // &__btns:last-child {
+    //     margin-right: 0;
+    // }
+}
+

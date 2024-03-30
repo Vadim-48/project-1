@@ -1,0 +1,39 @@
+@media (max-width: 1119px){
+
+}
+@media (max-width: 991px){
+
+    .nav__list{
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .wrap__img{
+        max-width: 350px;
+    }
+    
+    .about__cms{
+        flex-direction: column;
+    }
+}
+@media (max-width: 767px){
+    .footer__items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    h1, h2, h3{
+        text-align: center;
+    }
+
+    .wrap__row {
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 575px){
+    .wrap__img{
+        max-width: 200px;
+    }
+    .footer__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
