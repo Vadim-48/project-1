@@ -75,8 +75,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  max-width: 1200px;
-  margin: 0 auto;
   color: #050606;
 }
 
@@ -91,6 +89,8 @@ body {
 .container {
   padding-right: calc(10px + 118 * (100vw - 320px) / 880);
   padding-left: calc(10px + 118 * (100vw - 320px) / 880);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .text {
@@ -214,7 +214,7 @@ body {
 }
 
 .control {
-  color: #fff;
+  color: #ecc6c6;
   background: #f0f2f4;
   padding-bottom: calc(40px + 216 * (100vw - 320px) / 880);
   padding-top: calc(25px + 66 * (100vw - 320px) / 880);
